@@ -1,15 +1,22 @@
-function showHundred2(): void {
-  let result: string = ""
-  for (let i = 0; i <= 100; i++) {
-    result += `${i}`
-    if (0 < i && i % 5 === 0) {　//　iが1以上かつ５で割れる数字を改行する
-      result += `\n`
-    }
-  }
-  console.log(result)
-}
+// function mergeString(str1: string, str2: string, str3: string): string {
+//   return str1 + str2 + str3
+// }
 
-console.log(showHundred2())
+// console.log(mergeString("俺は", "明日", "勉強をする"))
+
+
+// function showHundred2(): void {
+//   let result: string = ""
+//   for (let i = 0; i <= 100; i++) {
+//     result += `${i}`
+//     if (0 < i && i % 5 === 0) {　//　iが1以上かつ５で割れる数字を改行する
+//       result += `\n`
+//     }
+//   }
+//   console.log(result)
+// }
+
+// console.log(showHundred2())
 
 
 // function showHundred1(): void {
