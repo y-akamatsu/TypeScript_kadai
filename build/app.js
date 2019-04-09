@@ -1,11 +1,22 @@
-function showHundred1() {
+function showHundred2() {
     let result = "";
     for (let i = 0; i <= 100; i++) {
-        result += `${i} `;
+        result += `${i}`;
+        if (0 < i && i % 5 === 0) {
+            result += `\n`;
+        }
     }
     console.log(result);
 }
-console.log(showHundred1());
+console.log(showHundred2());
+// function showHundred1(): void {
+//  let result: string = ""
+//  for(let i = 0; i <= 100; i++){
+//    result += `${i} `
+//  }
+//  console.log(result)
+// }
+// console.log(showHundred1())
 // function getHelloWithData(): string {
 //   const data = new Date(10) //ここに時間を入力
 //   const hours = data.getHours()
