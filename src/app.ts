@@ -3,6 +3,9 @@ function getArrayString(str1: string, str2: string, str3: string): string[] {
 }
 
 console.log(getArrayString('俺は', '明日', '勉強する'))
+console.log(getArrayString('明日', '気温', '下がるってよ'))
+console.log(getArrayString('明日', '東京', '雪降るらしい'))
+
 // function mergeString(str1: string, str2: string, str3: string): string {
 //   return str1 + str2 + str3
 // }
