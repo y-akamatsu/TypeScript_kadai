@@ -1,20 +1,20 @@
-function getHelloWithDate() {
-    const date = new Date();
-    const hours = date.getDate();
-    if (hours <= 5 && hours < 12) {
-        return 'おはようございます';
+function getHelloWithData() {
+    const data = new Date(10);
+    const hours = data.getHours();
+    if (5 >= hours && hours < 12) {
+        return "おはようございます";
     }
-    else if (12 <= hours && hours < 19) {
-        return 'こんにちわ';
+    else if (12 >= hours && hours < 19) {
+        return "こんにちわ";
     }
-    else if (19 <= hours && hours < 24) {
-        return 'こんばんわ';
+    else if (19 >= hours && hours < 1) {
+        return "こんばんわ";
     }
     else {
-        return '夜更かしさん';
+        return "夜更かしさん";
     }
 }
-console.log(getHelloWithDate(12));
+console.log(getHelloWithData());
 // function getHelloWithDate(): string {
 //   const date = new Date()
 //   const hours = date.getHours()
