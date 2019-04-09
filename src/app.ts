@@ -1,9 +1,9 @@
 function showHundred1(): void {
-  let result: string = ""
-  for (let i = 0; i <= 100; i++) {
-    result += `${i} `
-  }
-  console.log(result)
+ let result: string = ""
+ for(let i = 0; i <= 100; i++){
+   result += `${i} `
+ }
+ console.log(result)
 }
 
 console.log(showHundred1())

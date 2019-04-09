@@ -1,7 +1,7 @@
 function showHundred1() {
     let result = "";
     for (let i = 0; i <= 100; i++) {
-        result += `${i}`;
+        result += `${i} `;
     }
     console.log(result);
 }
