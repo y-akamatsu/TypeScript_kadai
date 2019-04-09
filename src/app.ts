@@ -2,7 +2,7 @@ function showHundred2(): void {
   let result: string = ""
   for (let i = 0; i <= 100; i++) {
     result += `${i}`
-    if (0 < i && i % 5 === 0) {
+    if (0 < i && i % 5 === 0) {　//　iが1以上かつ５で割れる数字を改行する
       result += `\n`
     }
   }
