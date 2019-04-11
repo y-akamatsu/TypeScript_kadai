@@ -1,9 +1,15 @@
-function multiple(nums: number[], multiple: number): number[]{
+function multiple(nums: number[], multiple: number): number[] {
   return nums.map((num) => num * multiple)
 }
 
-console.log("multiple", multiple([10, 2, 4, 1], 3))
-console.log("multiple", multiple([10, 2, 4, 1], 5))
+console.log('multiple', multiple([1, 2, 3, 4], 10))
+
+// function multiple(nums: number[], multiple: number): number[]{
+//   return nums.map((num) => num * multiple)
+// }
+
+// console.log("multiple", multiple([10, 2, 4, 1], 3))
+// console.log("multiple", multiple([10, 2, 4, 1], 5))
 
 // function calc(a: number, b: number, type: CalcType): number {
 //   switch (type) {
